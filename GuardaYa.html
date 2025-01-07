@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guarda Ya - Tu espacio de depósito</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff9900;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .hero {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .cta {
+            background-color: #ff9900;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, textarea, button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cc7a00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guarda Ya</h1>
+        <p>El espacio que necesitás, cuando lo necesitás</p>
+    </header>
+    <div class="container">
+        <div class="hero">
+            <h2>Almacená tus cosas de forma segura</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Depósito moderno y seguro">
+            <p>Depósitos modernos, accesibles y con opción de retiro a domicilio.</p>
+        </div>
+        <div class="cta">
+            <p>¡Consultá hoy mismo y obtené un 10% de descuento en tu primer mes!</p>
+            <a href="mailto:contacto@guardaya.com">Escribinos para más información</a>
+        </div>
+        <div class="form-container">
+            <h2>Enviános tu consulta</h2>
+            <form action="https://formsubmit.co/el/zamaza" method="POST">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+                <textarea name="mensaje" rows="4" placeholder="Escribí tu consulta aquí" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Guarda Ya. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
